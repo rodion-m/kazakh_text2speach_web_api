@@ -85,7 +85,7 @@ ISSAI appreciates and requires attribution. An attribution should include the ti
 
 ## Speech synthesis
 
-You can synthesize an arbitrary text using `synthesize.py` script. Modify the following lines in the script:
+You can synthesize an arbitrary text using `kazakh_tts_service.py` script. Modify the following lines in the script:
 ```
 ## specify the path to vocoder's checkpoint, i.e
 vocoder_checkpoint="exp/vocoder/checkpoint-400000steps.pkl"
